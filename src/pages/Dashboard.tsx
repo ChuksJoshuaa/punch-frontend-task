@@ -1,11 +1,12 @@
 import React from "react";
-import { Hero, MarketPlace } from "../components";
+import { Hero, MarketPlace, Groove } from "../components";
 
 const dashboard = () => {
   return (
     <React.Fragment>
       <Hero />
       <MarketPlace />
+      <Groove />
     </React.Fragment>
   );
 };

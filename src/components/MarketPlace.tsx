@@ -145,7 +145,7 @@ const MarketPlace = () => {
           <br />
           <br />
           <div
-            className="w-11/12 md:w-5/6 lg:w-5/6 lg:mt-20 px-5 md:px-10 flex flex-col md:flex-row justify-between items-center pb-16"
+            className="w-11/12 sm:w-5/6 lg:w-5/6 lg:mt-20 px-5 md:px-10 flex flex-col md:flex-row justify-between items-center pb-16"
             style={{ marginTop: "-20px" }}
           >
             <div className="w-full md:w-1/2 flex justify-center md:justify-start items-center mb-10 md:mb-0">
