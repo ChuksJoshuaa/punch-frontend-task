@@ -4,5 +4,7 @@ import Sidebar from "./Sidebar";
 import Hero from "./Hero";
 import MarketPlace from "./MarketPlace";
 import Navbar from "./Navbar";
+import IT from "./IT";
+import DesignAndCreative from "./DesignAndCreative";
 
-export { Layout, Footer, Sidebar, Hero, MarketPlace, Navbar };
+export { Layout, Footer, Sidebar, Hero, MarketPlace, Navbar, IT, DesignAndCreative };
