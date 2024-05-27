@@ -144,3 +144,27 @@ export const heroData: HeroProps[] = [
     id: uniqueID(),
   },
 ]
+
+
+export const technicalRecruitmenData = [
+  {
+    id: uniqueID(),
+    name: "Resume Screening"
+  },
+  {
+    id: uniqueID(),
+    name: "Technical Interview"
+  },
+  {
+    id: uniqueID(),
+    name: "HR Interview"
+  },
+  {
+    id: uniqueID(),
+    name: "Final Approval"
+  },
+  {
+    id: uniqueID(),
+    name: "Onboarding"
+  },
+]

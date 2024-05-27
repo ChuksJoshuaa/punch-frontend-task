@@ -7,5 +7,6 @@ import Navbar from "./Navbar";
 import Groove from "./Groove";
 import IT from "./IT";
 import DesignAndCreative from "./DesignAndCreative";
+import Technical from "./Technical";
 
-export { Layout, Footer, Sidebar, Hero, MarketPlace, Navbar, IT, DesignAndCreative, Groove };
+export { Layout, Footer, Sidebar, Hero, MarketPlace, Navbar, IT, DesignAndCreative, Groove, Technical };

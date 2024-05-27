@@ -1,5 +1,5 @@
 import React from "react";
-import { Hero, MarketPlace, Groove } from "../components";
+import { Hero, MarketPlace, Groove, Technical } from "../components";
 
 const dashboard = () => {
   return (
@@ -7,6 +7,7 @@ const dashboard = () => {
       <Hero />
       <MarketPlace />
       <Groove />
+      <Technical />
     </React.Fragment>
   );
 };
