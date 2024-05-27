@@ -8,5 +8,6 @@ import Groove from "./Groove";
 import IT from "./IT";
 import DesignAndCreative from "./DesignAndCreative";
 import Technical from "./Technical";
+import Crew from "./Crew";
 
-export { Layout, Footer, Sidebar, Hero, MarketPlace, Navbar, IT, DesignAndCreative, Groove, Technical };
+export { Layout, Footer, Sidebar, Hero, MarketPlace, Navbar, IT, DesignAndCreative, Groove, Technical, Crew };
