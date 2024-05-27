@@ -4,8 +4,8 @@ const ErrorPage = () => {
   return (
     <div className="page-100">
       <section className="flex flex-col justify-center items-center text-center">
-        <h1 className="text-[10rem] text-gray-50">404</h1>
-        <h3 className="mb-[2rem] normal-case text-gray-50 text-lg md:text-3xl">
+        <h1 className="text-[10rem] text-[rgb(82, 90, 160)]">404</h1>
+        <h3 className="mb-[2rem] normal-case text-[rgb(82, 90, 160)] text-lg md:text-3xl">
           Sorry, the page you tried cannot be found{" "}
         </h3>
         <Link
