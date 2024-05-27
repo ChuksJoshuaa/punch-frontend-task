@@ -5,7 +5,7 @@ import { zwiltLogo } from "../utils/imageFiles";
 
 const Navbar = () => {
   const { isSidebarOpen } = useAppSelector((state) => state.data);
-  const [openDropdown, setOpenDropdown] = useState(true);
+  const [openDropdown, setOpenDropdown] = useState(false);
   return (
     <div
       className="rounded-xl flex justify-between items-center pl-5 pr-2 py-2 text-sm shadow-lg my-7"
@@ -46,7 +46,7 @@ const Navbar = () => {
               <svg
                 stroke="currentColor"
                 fill="currentColor"
-                stroke-width="0"
+                strokeWidth="0"
                 viewBox="0 0 352 512"
                 height="24"
                 width="24"
@@ -68,7 +68,7 @@ const Navbar = () => {
             <svg
               stroke="currentColor"
               fill="currentColor"
-              stroke-width="0"
+              strokeWidth="0"
               viewBox="0 0 448 512"
               height="24"
               width="24"

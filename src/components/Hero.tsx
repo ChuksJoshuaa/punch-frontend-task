@@ -1,5 +1,18 @@
-import { searchImage, profileGif } from "../utils/imageFiles";
+import { useEffect, useState } from "react";
+import { HeroProps } from "../interface";
+import { heroData, heroHeader } from "../utils/header";
+import { profileGif, searchImage } from "../utils/imageFiles";
+
 const Hero = () => {
+  const [selectedTab, setSelectedTab] = useState("it");
+  const [selectedResult, setSelectedResult] = useState([] as HeroProps[]);
+  const [value, setValue] = useState('')
+
+  useEffect(() => {
+    const value = heroData.filter((item) => item.type === selectedTab);
+    setSelectedResult(value);
+  }, [selectedTab]);
+
   return (
     <div>
       <div className="w-full flex flex-col items-center justify-center my-8 md:my-20">
@@ -24,18 +37,67 @@ const Hero = () => {
           <input
             type="text"
             className="w-full px-4 py-2 rounded-md focus:outline-none focus:border-blue-500"
-            value=""
+            value={value}
+            onChange={(e) => setValue(e.target.value)}
             style={{ border: "1px solid rgb(240, 240, 240)" }}
           />
           <div className="absolute left-4 top-1/2 transform -translate-y-1/2 pointer-events-none text-gray-500">
             <span className="font-bold">Looking for</span> design |
           </div>
           <button
+            onClick={() => {
+              if(value) alert(value)
+            }}
             className="absolute right-0 text-white p-2 rounded-md flex items-center justify-center h-10 px-3"
             style={{ backgroundColor: "rgb(255, 190, 46)" }}
           >
             <img src={searchImage} alt="Search Icon" height="15" width="15" />
           </button>
+        </div>
+      </div>
+
+      <div className="flex justify-center items-center">
+        <div
+          className="px-5 py-5 rounded-lg w-full md:w-3/5"
+          style={{ backgroundColor: "rgb(248, 248, 248)" }}
+        >
+          <div
+            className="flex flex-wrap justify-between rounded-[15px] mb-4 mx-auto"
+            style={{ backgroundColor: "rgb(210, 210, 210)", maxWidth: "26rem" }}
+          >
+            {heroHeader?.map((item, idx) => (
+              <button
+                key={idx}
+                className="px-5 py-2 rounded-[15px] w-1/2"
+                style={{
+                  backgroundColor:
+                    selectedTab === item.id
+                      ? "rgb(199, 244, 194)"
+                      : "rgb(210, 210, 210)",
+                }}
+                onClick={() => setSelectedTab(item.id)}
+              >
+                {item.name}
+              </button>
+            ))}
+          </div>
+          <div className="flex justify-center mt-3 mx-auto">
+            <div className="flex flex-wrap justify-between w-full max-w-3xl">
+              {selectedResult?.map((item, idx) => (
+                <div className="w-full md:w-1/3 px-2" key={idx}>
+                  <p
+                    className={`text-left mt-3 text-lg leading-4 py-1 ${
+                      item.isSelected
+                        ? "text-[#202229] font-semibold"
+                        : "text-[#959595] font-normal"
+                    }`}
+                  >
+                    {item.name}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </div>

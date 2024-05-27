@@ -8,3 +8,10 @@ export interface IIProps {
 export type ChildrenProps = {
   children: React.ReactNode;
 };
+
+export interface HeroProps {
+  type: string;
+  name: string;
+  isSelected: boolean;
+  id: number;
+}
