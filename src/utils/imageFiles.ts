@@ -12,3 +12,5 @@ export const searchImage =
 
 export const profileGif =
   "https://res.cloudinary.com/chuksmbanaso/image/upload/v1716814788/profile_b12llk.gif";
+
+export const onBoardDesign = "https://res.cloudinary.com/chuksmbanaso/image/upload/v1716831060/onboard_e0vony.png"   
