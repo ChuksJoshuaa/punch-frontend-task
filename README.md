@@ -2,7 +2,9 @@
 
 <img src="https://res.cloudinary.com/chuksmbanaso/image/upload/v1716913029/Screenshot_2024-05-28_at_15.40.28_yksryi.png" title="Image" alt="image">
 
-This project is a simple landing page built with React, Typescript, Redux Toolkit and Tailwind.
+```
+The Zwilt Landing Page is a web project developed using React, TypeScript, and Tailwind CSS, with state management handled by Redux Toolkit. It features a simple yet effective user interface for showcasing a product or service. The project structure includes directories for components, Redux functionalities, utility functions, and pages, making it scalable and easy to maintain. This landing page is designed to be responsive and functional, providing a solid foundation for both development and testing purposes.
+```
 
 ## Getting Started
 
