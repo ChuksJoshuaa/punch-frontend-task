@@ -27,7 +27,7 @@ const Footer = () => {
             >
               Need a job done, and done <br /> well? Get started
             </div>
-            <div className="flex gap-3 items-center mt-5">
+            <div className="flex gap-3 items-center mt-5 cursor-pointer">
               <div
                 className="flex justify-center items-center rounded-full overflow-hidden bg-black h-11 w-11"
                 style={{ borderRadius: "35%" }}
@@ -125,27 +125,43 @@ const Footer = () => {
             <div className="flex flex-col md:flex-row gap-5 md:gap-28 mt-20">
               <div className="flex flex-col gap-5">
                 <div style={{ color: "rgb(118, 118, 121)" }}>PLATFORM</div>
-                <div>Find Work</div>
-                <div>Find Talent</div>
-                <div>Categories</div>
-                <div>About Us</div>
+                <div className="cursor-pointer whitespace-nowrap">
+                  Find Work
+                </div>
+                <div className="cursor-pointer whitespace-nowrap">
+                  Find Talent
+                </div>
+                <div className="cursor-pointer whitespace-nowrap">
+                  Categories
+                </div>
+                <div className="cursor-pointer whitespace-nowrap">About Us</div>
               </div>
               <div className="flex flex-col gap-5">
                 <div style={{ color: "rgb(118, 118, 121)" }}>CATEGORIES</div>
-                <div>Data Science</div>
-                <div>IT & Networking</div>
-                <div>Web & Mobile</div>
+                <div className="cursor-pointer whitespace-nowrap">
+                  Data Science
+                </div>
+                <div className="cursor-pointer whitespace-nowrap">
+                  IT & Networking
+                </div>
+                <div className="cursor-pointer whitespace-nowrap">
+                  Web & Mobile
+                </div>
               </div>
               <div className="flex flex-col gap-5">
                 <div style={{ color: "rgb(118, 118, 121)" }}>HELP</div>
-                <div>FAQ's</div>
-                <div>Contact Us</div>
+                <div className="cursor-pointer whitespace-nowrap">FAQ's</div>
+                <div className="cursor-pointer whitespace-nowrap">
+                  Contact Us
+                </div>
               </div>
               <div className="flex flex-col gap-5">
-                <div style={{ color: "rgb(118, 118, 121)" }}>GET IN TOUCH</div>
-                <div>Instagram</div>
-                <div>LinkedIn</div>
-                <div>Twitter</div>
+                <div style={{ color: "rgb(118, 118, 121)" }} className="whitespace-nowrap">GET IN TOUCH</div>
+                <div className="cursor-pointer whitespace-nowrap">
+                  Instagram
+                </div>
+                <div className="cursor-pointer whitespace-nowrap">LinkedIn</div>
+                <div className="cursor-pointer whitespace-nowrap">Twitter</div>
               </div>
             </div>
           </div>
@@ -158,8 +174,8 @@ const Footer = () => {
       >
         <div>All rights reserved by Zwilt</div>
         <div className="flex gap-5">
-          <div className="underline">Privacy Policy</div>
-          <div className="underline">Terms and Conditions</div>
+          <div className="underline cursor-pointer">Privacy Policy</div>
+          <div className="underline cursor-pointer">Terms and Conditions</div>
         </div>
       </div>
     </div>
