@@ -31,7 +31,7 @@ Access the live site at [Project-Link](https://zwilt-chuck.netlify.app)
 
 1. Clone the repository
 2. Install dependencies in both client and server directories using `npm install`
-4. Start the client from the client directory with `npm start`
+4. Start the client from the client directory with `npm run dev`
 
 ## Client
 
