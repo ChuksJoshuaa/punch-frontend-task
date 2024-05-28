@@ -15,7 +15,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Demo Link
 
-Access the live site at [Project-Link]https://zwilt-chuck.netlify.app)
+Access the live site at [Project-Link](https://zwilt-chuck.netlify.app)
 
 ## Technologies Used
 
@@ -39,7 +39,6 @@ The client is built with React, Tailwindcss and TypeScript. It uses Redux Toolki
 
 - `src/components`: Contains all the React components.
 - `src/redux`: Contains the redux functionalities for state management.
-- `src/constants`: Contains the action types for the reducer.
 - `src/utils`: Contains utility functions, such as notifications.
 - `src/pages`: Contains all the pages of the application.
 - `src/interface`: Contains all the typescript props and arguments.
@@ -48,3 +47,9 @@ The client is built with React, Tailwindcss and TypeScript. It uses Redux Toolki
 ## Contributing
 
 Contributions are welcome! If you would like to contribute to this project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature/your-feature-name`.
+3. Make your changes and commit them: `git commit -m 'Add some feature'`.
+4. Push to the branch: `git push origin feature/your-feature-name`.
+5. Submit a pull request.
