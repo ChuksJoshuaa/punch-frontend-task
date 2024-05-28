@@ -119,7 +119,7 @@ const Groove = () => {
             in our corner since.
           </div>
           <div className="flex gap-3 items-center mt-8 md:mt-12">
-            <div className="flex justify-center items-center rounded-full overflow-hidden bg-white h-12 w-12">
+            <div className="flex justify-center items-center rounded-full overflow-hidden bg-white h-12 w-12 cursor-pointer">
               <div className="h-4 w-4">
                 <svg
                   width="17"
@@ -139,7 +139,7 @@ const Groove = () => {
                 </svg>
               </div>
             </div>
-            <div className="flex justify-center items-center rounded-full overflow-hidden bg-white h-12 w-12">
+            <div className="flex justify-center items-center rounded-full overflow-hidden bg-white h-12 w-12 cursor-pointer">
               <div className="h-4 w-4">
                 <svg
                   width="18"

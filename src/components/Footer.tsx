@@ -101,13 +101,13 @@ const Footer = () => {
               </div>
               <div className="flex gap-5 mt-3">
                 <button
-                  className="px-8 py-2 text-xs rounded-lg"
+                  className="px-8 py-2 text-xs rounded-lg cursor-pointer whitespace-nowrap"
                   style={{ backgroundColor: "rgb(41, 43, 52)" }}
                 >
                   Hire Now
                 </button>
                 <button
-                  className="px-8 py-2 text-xs rounded-lg"
+                  className="px-8 py-2 text-xs rounded-lg cursor-pointer whitespace-nowrap"
                   style={{ backgroundColor: "rgb(41, 43, 52)" }}
                 >
                   Apply Now

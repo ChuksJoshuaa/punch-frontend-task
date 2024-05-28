@@ -65,7 +65,7 @@ const Risk = () => {
               <span>Risk-free resource swapping for the best fit.</span>
             </div>
           </div>
-          <div className="flex gap-3 items-center mt-5">
+          <div className="flex gap-3 items-center mt-5 cursor-pointer">
             <div className="flex justify-center items-center rounded-full overflow-hidden bg-black h-[54px] w-[54px]">
               <svg
                 width="25"

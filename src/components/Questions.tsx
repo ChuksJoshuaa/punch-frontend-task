@@ -22,7 +22,7 @@ const Questions = () => {
           >
             <div
               onClick={() => setSelectedIndex(idx)}
-              className={`w-full flex flex-row flex-wrap justify-between border-b-1 border-[#D6D6D6] ${
+              className={`w-full flex flex-row flex-wrap cursor-pointer justify-between border-b-1 border-[#D6D6D6] ${
                 idx === 0 && selectedIndex === idx
                   ? "border-t-1 border-[#D6D6D6] bg-[#E8E8E8]"
                   : selectedIndex === idx

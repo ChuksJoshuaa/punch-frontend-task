@@ -6,7 +6,7 @@ import { profileGif, searchImage } from "../utils/imageFiles";
 const Hero = () => {
   const [selectedTab, setSelectedTab] = useState("it");
   const [selectedResult, setSelectedResult] = useState([] as HeroProps[]);
-  const [value, setValue] = useState('')
+  const [value, setValue] = useState("");
 
   useEffect(() => {
     const value = heroData.filter((item) => item.type === selectedTab);
@@ -33,7 +33,7 @@ const Hero = () => {
           With our rigorous pre-vetting process, you'll never have to worry
           about finding the ideal candidate ever again.
         </div>
-        <div className="relative flex items-center mt-5 max-w-3xl mx-auto w-96">
+        <div className="relative flex items-center mt-5 max-w-3xl mx-auto w-full sx:w-96">
           <input
             type="text"
             className="w-full px-4 py-2 rounded-md focus:outline-none focus:border-blue-500"
@@ -46,9 +46,9 @@ const Hero = () => {
           </div>
           <button
             onClick={() => {
-              if(value) alert(value)
+              if (value) alert(value);
             }}
-            className="absolute right-0 text-white p-2 rounded-md flex items-center justify-center h-10 px-3"
+            className="absolute right-0 text-white p-2 rounded-md flex items-center justify-center h-10 px-3 cursor-pointer"
             style={{ backgroundColor: "rgb(255, 190, 46)" }}
           >
             <img src={searchImage} alt="Search Icon" height="15" width="15" />
@@ -68,7 +68,7 @@ const Hero = () => {
             {heroHeader?.map((item, idx) => (
               <button
                 key={idx}
-                className="px-5 py-2 rounded-[15px] w-1/2"
+                className="px-5 py-2 rounded-[15px] w-1/2 cursor-pointer text-sx sm:text-base font-medium"
                 style={{
                   backgroundColor:
                     selectedTab === item.id

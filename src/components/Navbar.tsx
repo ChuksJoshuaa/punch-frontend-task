@@ -42,7 +42,7 @@ const Navbar = () => {
               setOpenDropdown(false);
             }}
           >
-            <button className="text-white">
+            <button className="text-white cursor-pointer">
               <svg
                 stroke="currentColor"
                 fill="currentColor"
@@ -58,7 +58,7 @@ const Navbar = () => {
           </div>
         </>
       ) : (
-        <div className="flex items-center">
+        <div className="flex items-center cursor-pointer">
           <button
             className="text-white"
             onClick={() => {

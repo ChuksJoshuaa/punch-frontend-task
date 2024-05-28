@@ -148,7 +148,7 @@ const MarketPlace = () => {
             className="w-11/12 sm:w-5/6 lg:w-5/6 lg:mt-20 px-5 md:px-10 flex flex-col md:flex-row justify-between items-center pb-16"
             style={{ marginTop: "-20px" }}
           >
-            <div className="w-full md:w-1/2 flex justify-center md:justify-start items-center mb-10 md:mb-0">
+            <div className="w-full md:w-1/2 flex justify-center md:justify-start items-center mb-10 md:mb-0 cursor-pointer">
               <div className="flex items-center">
                 <div className="flex justify-center items-center rounded-full overflow-hidden bg-black h-16 w-16">
                   <svg
@@ -171,7 +171,7 @@ const MarketPlace = () => {
                 <span className="ml-3 font-bold">Explore More</span>
               </div>
             </div>
-            <div className="w-full md:w-1/2 text-center md:text-left">
+            <div className="w-full md:w-1/2 text-center md:text-left cursor-pointer">
               <span className="font-bold">30 more</span> to explore
             </div>
           </div>
