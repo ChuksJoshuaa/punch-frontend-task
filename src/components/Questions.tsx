@@ -34,7 +34,7 @@ const Questions = () => {
             >
               {item.isGeneral ? (
                 <div
-                  className={`md:w-[15%] px-[10px] md:px-[20px] md:border-r-1 md:border-[#D6D6D6] py-[14px] md:py-[23px]`}
+                  className={`md:w-[15%] px-[10px] md:px-[20px] md:border-r-1 md:border-[#D6D6D6] py-[14px] md:py-[23px] ${idx === 4 ? 'bg-[#E8E8E8]': ''}`}
                 >
                   <h2
                     className={`text-lg md:text-xl font-semibold leading-normal md:leading-[24px] text-center text-[#202229]`}
@@ -62,7 +62,11 @@ const Questions = () => {
                   </h2>
                 </div>
               )}
-              <div className={`md:w-[60%] md:pl-[3em] ${item.isProcess ? 'md:border-l-1 md:border-[#D6D6D6]': ''} `}>
+              <div
+                className={`md:w-[60%] md:pl-[3em] ${
+                  item.isProcess ? "md:border-l-1 md:border-[#D6D6D6]" : ""
+                } `}
+              >
                 <div className="flex justify-start md:justify-between items-right md:items-center pt-6 px-5 md:px-[3em] pb-3">
                   <h3
                     className={`text-sm leading-normal text-[#202229] mx-2 ${
