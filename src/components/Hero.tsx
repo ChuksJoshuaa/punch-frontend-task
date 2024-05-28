@@ -76,6 +76,7 @@ const Hero = () => {
                       : "rgb(210, 210, 210)",
                 }}
                 onClick={() => setSelectedTab(item.id)}
+                onMouseOver={() => setSelectedTab(item.id)}
               >
                 {item.name}
               </button>
@@ -86,7 +87,7 @@ const Hero = () => {
               {selectedResult?.map((item, idx) => (
                 <div className="w-full md:w-1/3 px-2" key={idx}>
                   <p
-                    className={`text-left mt-3 text-lg leading-4 py-1 ${
+                    className={`text-left mt-3 text-lg leading-4 py-1 cursor-pointer ${
                       item.isSelected
                         ? "text-[#202229] font-semibold"
                         : "text-[#959595] font-normal"

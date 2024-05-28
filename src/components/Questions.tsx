@@ -21,7 +21,7 @@ const Questions = () => {
             className="flex flex-col relative mx-auto w-full z-10 flex flex-col md:flex-row items-center justify-center"
           >
             <div
-              onClick={() => setSelectedIndex(idx)}
+              onMouseOver={() => setSelectedIndex(idx)}
               className={`w-full flex flex-row flex-wrap cursor-pointer justify-between border-b-1 border-[#D6D6D6] ${
                 idx === 0 && selectedIndex === idx
                   ? "border-t-1 border-[#D6D6D6] bg-[#E8E8E8]"

@@ -27,7 +27,7 @@ const Technical = () => {
               className={`${selectedIndex === idx ? showStyle : hideStyle}`}
               style={{ width: "100%", maxWidth: "500px" }}
               key={idx}
-              onClick={() => setSelectedIndex(idx)}
+              onMouseOver={() => setSelectedIndex(idx)}
             >
               <div className="flex items-center gap-3">
                 <div
