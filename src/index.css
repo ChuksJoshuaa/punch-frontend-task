@@ -44,3 +44,9 @@ a {
   min-height: calc(100vh - 10rem);
   padding: 5rem 0;
 }
+
+.frequent__questions {
+  display: grid;
+  grid-template-columns: 20% 20% 60%;
+  grid-gap: 10px;
+}
