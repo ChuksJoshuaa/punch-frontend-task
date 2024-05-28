@@ -101,14 +101,12 @@ const Footer = () => {
               </div>
               <div className="flex gap-5 mt-3">
                 <button
-                  className="px-8 py-2 text-xs rounded-lg cursor-pointer whitespace-nowrap"
-                  style={{ backgroundColor: "rgb(41, 43, 52)" }}
+                  className="px-8 py-2 text-xs rounded-lg cursor-pointer whitespace-nowrap bg-gray-800 hover:bg-gray-700"
                 >
                   Hire Now
                 </button>
                 <button
-                  className="px-8 py-2 text-xs rounded-lg cursor-pointer whitespace-nowrap"
-                  style={{ backgroundColor: "rgb(41, 43, 52)" }}
+                  className="px-8 py-2 text-xs rounded-lg cursor-pointer whitespace-nowrap bg-gray-800 hover:bg-gray-700"
                 >
                   Apply Now
                 </button>
@@ -125,43 +123,43 @@ const Footer = () => {
             <div className="flex flex-col md:flex-row gap-5 md:gap-28 mt-20">
               <div className="flex flex-col gap-5">
                 <div style={{ color: "rgb(118, 118, 121)" }}>PLATFORM</div>
-                <div className="cursor-pointer whitespace-nowrap">
+                <div className="cursor-pointer whitespace-nowrap text-sm md:text-base">
                   Find Work
                 </div>
-                <div className="cursor-pointer whitespace-nowrap">
+                <div className="cursor-pointer whitespace-nowrap text-sm md:text-base">
                   Find Talent
                 </div>
-                <div className="cursor-pointer whitespace-nowrap">
+                <div className="cursor-pointer whitespace-nowrap text-sm md:text-base">
                   Categories
                 </div>
-                <div className="cursor-pointer whitespace-nowrap">About Us</div>
+                <div className="cursor-pointer whitespace-nowrap text-sm md:text-base">About Us</div>
               </div>
               <div className="flex flex-col gap-5">
                 <div style={{ color: "rgb(118, 118, 121)" }}>CATEGORIES</div>
-                <div className="cursor-pointer whitespace-nowrap">
+                <div className="cursor-pointer whitespace-nowrap text-sm md:text-base">
                   Data Science
                 </div>
-                <div className="cursor-pointer whitespace-nowrap">
+                <div className="cursor-pointer whitespace-nowrap text-sm md:text-base">
                   IT & Networking
                 </div>
-                <div className="cursor-pointer whitespace-nowrap">
+                <div className="cursor-pointer whitespace-nowrap text-sm md:text-base">
                   Web & Mobile
                 </div>
               </div>
               <div className="flex flex-col gap-5">
                 <div style={{ color: "rgb(118, 118, 121)" }}>HELP</div>
-                <div className="cursor-pointer whitespace-nowrap">FAQ's</div>
-                <div className="cursor-pointer whitespace-nowrap">
+                <div className="cursor-pointer whitespace-nowrap text-sm md:text-base">FAQ's</div>
+                <div className="cursor-pointer whitespace-nowrap text-sm md:text-base">
                   Contact Us
                 </div>
               </div>
               <div className="flex flex-col gap-5">
                 <div style={{ color: "rgb(118, 118, 121)" }} className="whitespace-nowrap">GET IN TOUCH</div>
-                <div className="cursor-pointer whitespace-nowrap">
+                <div className="cursor-pointer whitespace-nowrap text-sm md:text-base">
                   Instagram
                 </div>
-                <div className="cursor-pointer whitespace-nowrap">LinkedIn</div>
-                <div className="cursor-pointer whitespace-nowrap">Twitter</div>
+                <div className="cursor-pointer whitespace-nowrap text-sm md:text-base">LinkedIn</div>
+                <div className="cursor-pointer whitespace-nowrap text-sm md:text-base">Twitter</div>
               </div>
             </div>
           </div>
