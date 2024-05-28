@@ -10,5 +10,6 @@ import DesignAndCreative from "./DesignAndCreative";
 import Technical from "./Technical";
 import Crew from "./Crew";
 import Risk from "./Risk";
+import Questions from "./Questions";
 
-export { Layout, Footer, Sidebar, Hero, MarketPlace, Navbar, IT, DesignAndCreative, Groove, Technical, Crew, Risk };
+export { Layout, Footer, Sidebar, Hero, MarketPlace, Navbar, IT, DesignAndCreative, Groove, Technical, Crew, Risk, Questions };

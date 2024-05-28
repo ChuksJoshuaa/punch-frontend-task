@@ -15,3 +15,11 @@ export interface HeroProps {
   isSelected: boolean;
   id: number;
 }
+
+
+export type QuestionsProps = {
+  id: number;
+  name: string;
+  isGeneral: boolean;
+  isProcess: boolean;
+}
