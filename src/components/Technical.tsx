@@ -10,10 +10,10 @@ const Technical = () => {
   return (
     <div className="relative pt-10 bg-white">
       <div
-        className="absolute top-0 left-0 w-full h-48 bg-blue-500 transform -skew-y-2 origin-top-left"
-        style={{ zIndex: 10, backgroundColor: "rgb(32, 34, 41)" }}
+        className="absolute top-0 left-0 w-full h-24 bg-blue-500 transform -skew-y-2 origin-top-left"
+        style={{ zIndex: 10, backgroundColor: "white" }}
       ></div>
-      <div className="relative mx-auto w-11/12 md:w-5/6 lg:w-5/6 px-5 md:px-10 z-10 flex flex-col md:flex-row items-center justify-center py-32 mt-20 bg-transparent">
+      <div className="relative mx-auto w-11/12 md:w-5/6 lg:w-5/6 px-5 md:px-10 z-10 flex flex-col md:flex-row items-center justify-center py-32 mt-5 bg-transparent">
         <div className="w-full md:w-1/2">
           <div className="mt-5 font-bold text-2xl md:text-3xl lg:text-4xl leading-tight">
             How we ensure you’re <br /> in good hands.
@@ -68,20 +68,23 @@ const Technical = () => {
                     </svg>
                   )}
                 </div>
-                <span className="text-sm md:text-md leading-4 md:leading-6 font-semibold text-[#202229]">Step {idx + 1}:</span> <span className="text-sm md:text-md leading-4 md:leading-6 font-normal text-[#202229]">{item.name}</span>
-                
+                <span className="text-sm md:text-md leading-4 md:leading-6 font-semibold text-[#202229]">
+                  Step {idx + 1}:
+                </span>{" "}
+                <span className="text-sm md:text-md leading-4 md:leading-6 font-normal text-[#202229]">
+                  {item.name}
+                </span>
+              </div>
+              {selectedIndex === idx && (
+                <div className="mt-1 text-sm md:text-md leading-4 md:leading-6 font-normal text-[#202229]">
+                  Candidates undergo a rigorous technical interview to assess
+                  their skills and expertise.
                 </div>
-                  {selectedIndex === idx && (
-                  <div className="mt-1 text-sm md:text-md leading-4 md:leading-6 font-normal text-[#202229]">
-                Candidates undergo a rigorous technical interview to assess
-                their skills and expertise.
-                </div>
-                )}
+              )}
             </div>
           ))}
         </div>
         <div className="w-full md:w-1/2 mt-10 md:mt-0" />
-          
       </div>
     </div>
   );

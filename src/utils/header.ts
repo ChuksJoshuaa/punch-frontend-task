@@ -1,6 +1,6 @@
 import { HeroProps } from "../interface";
 
-export const uniqueID = () => Math.floor(Math.random() * 100000000)
+export const uniqueID = () => Math.floor(Math.random() * 100000000);
 
 export const headerData = [
   "Find Work",
@@ -10,7 +10,6 @@ export const headerData = [
   "Contact Us",
 ];
 
-
 export const heroHeader = [
   {
     id: "it",
@@ -19,8 +18,8 @@ export const heroHeader = [
   {
     id: "design",
     name: "Design and Creative",
-  }
-]
+  },
+];
 
 export const heroData: HeroProps[] = [
   {
@@ -143,28 +142,33 @@ export const heroData: HeroProps[] = [
     isSelected: false,
     id: uniqueID(),
   },
-]
-
+  {
+    type: "design",
+    name: "",
+    isSelected: false,
+    id: uniqueID(),
+  },
+];
 
 export const technicalRecruitmenData = [
   {
     id: uniqueID(),
-    name: "Resume Screening"
+    name: "Resume Screening",
   },
   {
     id: uniqueID(),
-    name: "Technical Interview"
+    name: "Technical Interview",
   },
   {
     id: uniqueID(),
-    name: "HR Interview"
+    name: "HR Interview",
   },
   {
     id: uniqueID(),
-    name: "Final Approval"
+    name: "Final Approval",
   },
   {
     id: uniqueID(),
-    name: "Onboarding"
+    name: "Onboarding",
   },
-]
+];
